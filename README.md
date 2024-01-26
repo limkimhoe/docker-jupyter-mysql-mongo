@@ -5,7 +5,7 @@ This guide will assist you in setting up a development container that runs Docke
 
 After completion of this setup, it allows you to open or clone code in a local or cloud-hosted Dev Container and take advantage of VS Code's full development feature set.
 
-We are going to use Alpine Linux for our container, read more at: Minimal Notebook Container Documentation](https://hub.docker.com/r/jupyter/minimal-notebok)
+We are going to use Minimal Jupyter for our container, read more at: Minimal Notebook Container Documentation](https://hub.docker.com/r/jupyter/minimal-notebook)
 
 ## Setup Steps
 
