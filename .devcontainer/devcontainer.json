@@ -1,0 +1,32 @@
+{
+	"name": "Jupyter Notebook with MongoDB and MySQL",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "jupyter",
+	"workspaceFolder": "/workspace",
+	"overrideCommand": false,
+  
+	"forwardPorts": [8888],
+	"portsAttributes": {
+	  "8888": {
+		"label": "Jupyter",
+		"requireLocalPort": true,
+		"onAutoForward": "ignore"
+	  }
+	},
+  
+	"customizations": {
+	  "vscode": {
+		"settings": { 
+		  "python.defaultInterpreterPath": "/opt/conda/bin/python"
+		},
+		"extensions": [
+		  "ms-python.python",
+		  "ms-toolsai.jupyter",
+		  "mtxr.sqltools",
+		  "mongodb.mongodb-vscode"
+		]
+	  }
+	},
+  
+	"remoteUser": "jovyan"
+  }
