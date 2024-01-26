@@ -57,7 +57,8 @@ We are going to use Alpine Linux for our container, read more at: Minimal Notebo
 **8. Confirmation:**
    - Once you see a blue bar at the bottom left of VSC, the container has been created successfully.
    
-   <img width="202" alt="image" src="https://github.com/limkimhoe/docker-python-mongo-mysql/assets/22229616/a1526e26-d87d-4eab-8863-35b1df42e20e"><br/><br/>
+   <img width="145" alt="image" src="https://github.com/limkimhoe/docker-jupyter-mysql-mongo/assets/22229616/fa4f56c1-b0dc-421f-aff0-30f1c7396799">
+
     
 **9. Testing Database Connections:**
    - Open the "DBConnectionTest.ipynb" notebook file in VSC by double clicking the file.
@@ -87,6 +88,31 @@ We are going to use Alpine Linux for our container, read more at: Minimal Notebo
    - You should see the output of "{'_id': ObjectId('65a1178e2be39485c150fb05'), 'name': 'Test', 'value': 123}" if successful.
    
    <img width="377" alt="image" src="https://github.com/limkimhoe/docker-python-mongo-mysql/assets/22229616/128e9076-1de4-457c-92a2-743bbff42ba8"><br/><br/>
+
+
+**14. Open Jupyter Notebook**
+  - Open a web browser and type "http://localhost:8888".
+  - 
+  <img width="233" alt="image" src="https://github.com/limkimhoe/docker-jupyter-mysql-mongo/assets/22229616/5c7b0f71-ffd7-48a0-827f-33acafe4e288">
+
+  - Type "SOC12345" for JUPYTER_TOKEN which can be changed in Dockerfile
+  - Jupyter Lab should be loaded like the following:
+  - 
+  <img width="932" alt="image" src="https://github.com/limkimhoe/docker-jupyter-mysql-mongo/assets/22229616/df845855-2bba-45c9-82a0-23dcc042aa08">
+
+
+**15.Launch a Notebook**
+  - Click the Notebook Python 3 icon to lanch a notebook.
+
+  <img width="107" alt="image" src="https://github.com/limkimhoe/docker-jupyter-mysql-mongo/assets/22229616/7624c088-b672-4a19-a34e-a8547a077fea">
+
+   - After the notebook has launced, click on the Dropdown "Open in" and select NB Classic.
+     
+   <img width="694" alt="image" src="https://github.com/limkimhoe/docker-jupyter-mysql-mongo/assets/22229616/5369fd14-188e-4e3e-b739-e99e48b3ef83">
+
+   - A Classic Notebook will launch in a new browser tab.
+
+   <img width="953" alt="image" src="https://github.com/limkimhoe/docker-jupyter-mysql-mongo/assets/22229616/b6593f60-59dd-479a-9822-22a23b699406">
 
 
 
