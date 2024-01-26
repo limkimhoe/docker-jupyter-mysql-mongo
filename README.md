@@ -1,4 +1,4 @@
-# Docker Compose - Python Alpine, Mongo DB, and MySQL DB Setup Instructions
+# Docker Compose - Jupyter Notebook, Mongo DB, and MySQL DB Setup Instructions
 ### Pre-Requisites: Ensure you have Visual Studio Code (VSC) and Docker installed with Windows Subsystem for Linux (WSL2).
 
 This guide will assist you in setting up a development container that runs Docker and includes a well-defined tool/runtime stack. The container comprises Jupyter Notebook, MongoDB, and MySQL databases on a minimal-notebook, along with Visual Studio Code (VSC) plugins customised to suit our requirements.
